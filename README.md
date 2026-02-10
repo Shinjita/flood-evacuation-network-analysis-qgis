@@ -23,7 +23,7 @@ At a high level, the workflow:
 - QGIS (with Python support enabled)
   
 ### Step 1: Load the Main Script
-Open QGIS, launch the Python Console, and load the `code.py` script. This will register the custom **Network Analysis: Safety Point Identification** tool in the QGIS Processing Toolbox.
+Open QGIS, launch the Python Console, and load the `code.py` script. This will register the custom **Network Analysis: Safety Point Identification** tool in the QGIS Processing Toolbox.<br/>
 ![image](https://user-images.githubusercontent.com/80443493/137457987-38bdd4da-ce5e-4514-8abe-0661a9cf565b.png)
 
 ### Step 2: Run the Processing Tool
