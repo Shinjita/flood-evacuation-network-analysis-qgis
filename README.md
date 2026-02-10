@@ -7,9 +7,9 @@ The workflow focuses on identifying the **fastest or shortest evacuation paths**
 
 Flood events require **rapid, repeatable, and reliable evacuation planning**. Manual GIS workflows are often too slow and error-prone during emergencies. This project demonstrates how **GIS automation** can be used to:
 
-- ⏱️ **Reduce analysis time**  
-- 🔁 **Ensure consistency across scenarios**  
-- ⚡ **Enable rapid re-running of evacuation modelling as conditions change**   
+⏱️ **Reduce analysis time**  
+🔁 **Ensure consistency across scenarios**  
+⚡ **Enable rapid re-running of evacuation modelling as conditions change**   
 
 
 **How to run the codes**
