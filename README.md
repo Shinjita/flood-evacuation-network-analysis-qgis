@@ -11,6 +11,21 @@ Flood events require **rapid, repeatable, and reliable evacuation planning**. Ma
 🔁 **Ensure consistency across scenarios**  
 ⚡ **Enable rapid re-running of evacuation modelling as conditions change**   
 
+The project is framed as an **applied urban risk and resilience analysis**, suitable for emergency management, urban planning, and spatial decision-support systems.
+
+## What This Project Does
+
+At a high level, the workflow:
+
+1. Identifies flood-affected areas using buffered flood polygons  
+2. Selects a user-defined safety point (by name or coordinates)  
+3. Clips road networks and address points to the affected study area  
+4. Determines which addresses are closest to the selected safety point  
+5. Computes the **shortest or fastest evacuation routes** using network analysis  
+6. Applies predefined cartographic styles for clear visual interpretation  
+7. Outputs both map layers and an exported map image for reporting  
+
+
 
 **How to run the codes**
 1. Open QGIS and open the code.py file using QGIS Scripts<br/>
