@@ -1,5 +1,16 @@
-# Project GP: Network Analysis
-To identify the best path and effectively automate the process using QGIS Python to create and reiterate evacuation paths during the flooding to save time and lives.
+# Flood Evacuation Network Analysis using QGIS Python
+
+This project presents an **automated GIS-based network analysis workflow** developed in **QGIS using Python**, designed to identify **safe evacuation routes during flood events**. The tool integrates spatial data, network analysis, and cartographic styling to support rapid decision-making in emergency and disaster response contexts.
+The workflow focuses on identifying the **fastest or shortest evacuation paths** from flood-affected residential addresses to designated **safety points** (e.g. schools, shelters), while accounting for flood extents, buffer zones, and road network constraints.
+
+## Project Purpose
+
+Flood events require **rapid, repeatable, and reliable evacuation planning**. Manual GIS workflows are often too slow and error-prone during emergencies. This project demonstrates how **GIS automation** can be used to:
+
+- ⏱️ **Reduce analysis time**  
+- 🔁 **Ensure consistency across scenarios**  
+- ⚡ **Enable rapid re-running of evacuation modelling as conditions change**   
+
 
 **How to run the codes**
 1. Open QGIS and open the code.py file using QGIS Scripts<br/>
