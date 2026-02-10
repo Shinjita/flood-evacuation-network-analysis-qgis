@@ -27,18 +27,18 @@ Open QGIS, launch the Python Console, and load the `code.py` script. This will r
 ![image](https://user-images.githubusercontent.com/80443493/137457987-38bdd4da-ce5e-4514-8abe-0661a9cf565b.png)
 
 ### Step 2: Run the Processing Tool
-From the Processing Toolbox, run **Network Analysis: Safety Point Identification** and provide the required inputs, including flood buffer distance, selected safety point name, safety point coordinates, input spatial layers, and optional QML symbology files.
+From the Processing Toolbox, run **Network Analysis: Safety Point Identification** and provide the required inputs, including flood buffer distance, selected safety point name, safety point coordinates, input spatial layers, and optional QML symbology files.<br/>
 ![image](https://user-images.githubusercontent.com/80443493/137458045-f55cde87-6888-4749-b781-664f4e4d6079.png)
 
 ### Step 3: Review the Output Layers
-From the Processing Toolbox, run **Network Analysis: Safety Point Identification** and provide the required inputs, including flood buffer distance, selected safety point name, safety point coordinates, input spatial layers, and optional QML symbology files.
+From the Processing Toolbox, run **Network Analysis: Safety Point Identification** and provide the required inputs, including flood buffer distance, selected safety point name, safety point coordinates, input spatial layers, and optional QML symbology files.<br/>
 ![image](https://user-images.githubusercontent.com/80443493/137458213-41af22e8-dfb5-4f3f-88ab-f726765e1cfa.png)
 
 ### Step 4: Export the Map Output
-Run the `export_image_code.py` script from the Python Console to automatically zoom to the final evacuation route or study area and export the map view as an image to the output folder.
+Run the `export_image_code.py` script from the Python Console to automatically zoom to the final evacuation route or study area and export the map view as an image to the output folder.<br/>
 ![image](https://user-images.githubusercontent.com/80443493/137458312-9fb413d9-c716-40bf-af63-7589e1802d66.png)
 
 ### Step 5: Re-run for Different Scenarios
-The workflow can be re-run with different buffer distances, safety points, or study areas to support rapid evacuation scenario testing.
+The workflow can be re-run with different buffer distances, safety points, or study areas to support rapid evacuation scenario testing.<br/>
 ![image](https://user-images.githubusercontent.com/80443493/137458386-f89b5f60-569c-443f-9f1a-78c0fbb5b4cd.png)
 
