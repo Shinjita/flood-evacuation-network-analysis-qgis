@@ -5,16 +5,9 @@ The workflow focuses on identifying the **fastest or shortest evacuation paths**
 
 ## Project Purpose
 
-Flood events require **rapid, repeatable, and reliable evacuation planning**. Manual GIS workflows are often too slow and error-prone during emergencies. This project demonstrates how **GIS automation** can be used to:
-
-⏱️ **Reduce analysis time**  
-🔁 **Ensure consistency across scenarios**  
-⚡ **Enable rapid re-running of evacuation modelling as conditions change**   
-
-The project is framed as an **applied urban risk and resilience analysis**, suitable for emergency management, urban planning, and spatial decision-support systems.
+Flood events require **rapid, repeatable, and reliable evacuation planning**. Manual GIS workflows are often too slow and error-prone during emergencies. This project demonstrates how **GIS automation** can be use to an **applied urban risk and resilience analysis**, suitable for emergency management, urban planning, and spatial decision-support systems.
 
 ## What This Project Does
-
 At a high level, the workflow:
 
 1. Identifies flood-affected areas using buffered flood polygons  
@@ -25,27 +18,27 @@ At a high level, the workflow:
 6. Applies predefined cartographic styles for clear visual interpretation  
 7. Outputs both map layers and an exported map image for reporting  
 
-
-
-**How to run the codes**
-1. Open QGIS and open the code.py file using QGIS Scripts<br/>
+## How to Run the Code
+### Prerequisites
+- QGIS (with Python support enabled)
+  
+### Step 1: Load the Main Script
+Open QGIS, launch the Python Console, and load the `code.py` script. This will register the custom **Network Analysis: Safety Point Identification** tool in the QGIS Processing Toolbox.
 ![image](https://user-images.githubusercontent.com/80443493/137457987-38bdd4da-ce5e-4514-8abe-0661a9cf565b.png)
 
-2. Run the script <br/>
+### Step 2: Run the Processing Tool
+From the Processing Toolbox, run **Network Analysis: Safety Point Identification** and provide the required inputs, including flood buffer distance, selected safety point name, safety point coordinates, input spatial layers, and optional QML symbology files.
 ![image](https://user-images.githubusercontent.com/80443493/137458045-f55cde87-6888-4749-b781-664f4e4d6079.png)
 
-3. Input path to all the files (shapefile and qml) and provide the following details: <br/>
-  a. Buffer distance value <br/>
-  b. Selected safety point name <br/>
-  c. Selected safety point latitude and longitude <br/>
+### Step 3: Review the Output Layers
+From the Processing Toolbox, run **Network Analysis: Safety Point Identification** and provide the required inputs, including flood buffer distance, selected safety point name, safety point coordinates, input spatial layers, and optional QML symbology files.
 ![image](https://user-images.githubusercontent.com/80443493/137458213-41af22e8-dfb5-4f3f-88ab-f726765e1cfa.png)
 
-4. Once the desired layers are loaded, run the export_image.py code using the Python Console <br/>
+### Step 4: Export the Map Output
+Run the `export_image_code.py` script from the Python Console to automatically zoom to the final evacuation route or study area and export the map view as an image to the output folder.
 ![image](https://user-images.githubusercontent.com/80443493/137458312-9fb413d9-c716-40bf-af63-7589e1802d66.png)
 
-5. Once the code is executed the map will be zoomed to the extent of either: <br/>
-  a. Final path - address points to the safety location <br/>
-  b. Entire study area <br/>
-  Additionally, the view on the QGIS Map Canvas is also exported as an image in the output folder <br/>
+### Step 5: Re-run for Different Scenarios
+The workflow can be re-run with different buffer distances, safety points, or study areas to support rapid evacuation scenario testing.
 ![image](https://user-images.githubusercontent.com/80443493/137458386-f89b5f60-569c-443f-9f1a-78c0fbb5b4cd.png)
 
